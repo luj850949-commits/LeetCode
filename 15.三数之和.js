@@ -13,15 +13,15 @@ var threeSum = function(nums) {
   let fin = []
   nums = nums.sort((a, b) => a - b)
 
-  for(let i = 0; i < nums.length; i++) {
-    if(i === 0 || nums[i] !== nums[i - 1]) {
-      let t = nums.length - 1
-      for(let n = i + 1; n < nums.length; n++) {
-        if(n === i + 1 || nums[n] !== nums[n - 1]) {
-          for(;t > n && nums[n] + nums[t] >= 0 - nums[i]; t--) {
-            if(t === nums.length - 1 || nums[t] !== nums[t+1]) {
-              if(nums[i] + nums[n] + nums[t] === 0) {
-                fin.push([nums[i], nums[n], nums[t]])
+  for(let fir = 0; fir < nums.length; fir++) {
+    if (fir === 0 || nums[fir] !== nums[fir - 1]) {
+      let thr = nums.length - 1
+      for(let sec = fir + 1; sec < thr; sec++) {
+        if(sec === fir + 1 || nums[sec] !== nums[sec - 1]) {
+          for(;thr > sec && nums[thr] >= (0 - nums[fir] - nums[sec]); thr--) {
+            if(thr === (nums.length - 1) || nums[thr] !== nums[thr + 1]) {
+              if(nums[fir] + nums[sec] + nums[thr] === 0) {
+                fin.push([nums[fir], nums[sec], nums[thr]])
               }
             }
           }
@@ -33,5 +33,4 @@ var threeSum = function(nums) {
   return fin
 };
 // @lc code=end
-
 module.exports = threeSum
