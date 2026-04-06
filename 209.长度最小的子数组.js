@@ -11,26 +11,25 @@
  * @return {number}
  */
 var minSubArrayLen = function(target, nums) {
-  let sum = nums[0] || 0
-  let min = 10000000000
-  let isOK = false
-  let now = 1
-
-  for(let fir = 0, sec = 1; fir < nums.length && fir < sec; fir++) {
-    while(sum < target && sec < nums.length) {
-      sum += nums[sec]
-      sec++
-      now++
+  let sum = 0
+  let lang = 1000000000
+  let beg = 0
+  let end = 0
+  
+  while(beg < nums.length && beg <= end) {
+    while(sum < target && end < nums.length) {
+      sum += nums[end]
+      end++
     }
-    if(sum >= target){
-      isOK = true
-      min = min > now ? now : min
-      now --
-      sum = sum - nums[fir]
+    if(end === nums.length && sum < target) break
+    else {
+      lang = lang < end - beg ? lang : end - beg
+      sum -= nums[beg]
+      beg++
     }
   }
 
-  return isOK ? min : 0
+  return lang === 1000000000 ? 0 : lang
 };
 // @lc code=end
 

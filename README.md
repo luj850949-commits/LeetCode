@@ -14,7 +14,7 @@
 - [x] **15. 三数之和 (3Sum)** - *排序 + 双指针*
 - [x] **3. 无重复字符的最长子串 (Longest Substring Without Repeating Characters)** - *滑动窗口高频 Top 3*
 - [x] **209. 长度最小的子数组 (Minimum Size Subarray Sum)**
-- [ ] **167. 两数之和 II - 输入有序数组 (Two Sum II)** - *专项加练：“三数之和”核心前置*
+- [x] **167. 两数之和 II - 输入有序数组 (Two Sum II)** - *专项加练：“三数之和”核心前置*
 - [ ] **11. 盛最多水的容器 (Container With Most Water)** - *专项加练：左右指针收缩策略*
 - [ ] **16. 最接近的三数之和 (3Sum Closest)** - *专项加练：专注指针移动，无需复杂去重*
 - [ ] **643. 子数组最大平均数 I (Maximum Average Subarray I)** - *专项加练：定长滑动窗口入门*
