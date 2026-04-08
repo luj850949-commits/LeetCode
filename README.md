@@ -17,8 +17,8 @@
 - [x] **167. 两数之和 II - 输入有序数组 (Two Sum II)** - *专项加练：“三数之和”核心前置*
 - [x] **11. 盛最多水的容器 (Container With Most Water)** - *专项加练：左右指针收缩策略*
 - [x] **16. 最接近的三数之和 (3Sum Closest)** - *专项加练：专注指针移动，无需复杂去重*
-- [ ] **643. 子数组最大平均数 I (Maximum Average Subarray I)** - *专项加练：定长滑动窗口入门*
-- [ ] **438. 找到字符串中所有字母异位词 (Find All Anagrams in a String)** - *专项加练：变长窗口 + 哈希表*
+- [x] **643. 子数组最大平均数 I (Maximum Average Subarray I)** - *专项加练：定长滑动窗口入门*
+- [x] **438. 找到字符串中所有字母异位词 (Find All Anagrams in a String)** - *专项加练：变长窗口 + 哈希表*
 
 ### 链表、二叉树
 
