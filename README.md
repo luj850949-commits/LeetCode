@@ -23,7 +23,7 @@
 ### 链表、二叉树
 
 - [x] **206. 反转链表 (Reverse Linked List)** - *极其重要*
-- [ ] **21. 合并两个有序链表 (Merge Two Sorted Lists)**
+- [x] **21. 合并两个有序链表 (Merge Two Sorted Lists)**
 - [ ] **141. 环形链表 (Linked List Cycle)** - *快慢指针的经典应用*
 - [ ] **104. 二叉树的最大深度 (Maximum Depth of Binary Tree)** - *递归入门*
 - [ ] **226. 翻转二叉树 (Invert Binary Tree)**
