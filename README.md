@@ -30,7 +30,7 @@
 - [x] **100. 相同的树 (Same Tree)** - *专项强化：双树同时递归。*
 - [x] **101. 对称二叉树 (Symmetric Tree)** - *专项强化：100 和 226 的完美结合体。*
 - [x] **112. 路径总和 (Path Sum)** - *专项强化：自顶向下的状态传递。*
-- [ ] **110. 平衡二叉树 (Balanced Binary Tree)** - *专项强化：自底向上的数据汇报。*
+- [x] **110. 平衡二叉树 (Balanced Binary Tree)** - *专项强化：自底向上的数据汇报。*
 - [ ] **102. 二叉树的层序遍历 (Binary Tree Level Order Traversal)** - *结合队列 (Queue) 使用*
 - [ ] **236. 二叉树的最近公共祖先 (Lowest Common Ancestor of a Binary Tree)**
 
