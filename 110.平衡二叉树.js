@@ -78,14 +78,13 @@ function treeToArray(root) {
  * @return {boolean}
  */
 var height = function(root) {
-  if(root === null) return 0
-  let left = height(root.left)
+  if(!root) return 0
+  
+  let left =  height(root.left)
   let right = height(root.right)
-  if(left === -1 || right === -1 || Math.abs(left - right) > 1) {
-    return -1
-  } else {
-    return Math.max(left, right) + 1
-  }
+
+  if(left < 0 || right < 0 || Math.abs(left - right) > 1) return -1
+  else return Math.max(left, right) + 1
 }
 
 var isBalanced = function(root) {
