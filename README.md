@@ -32,7 +32,7 @@
 - [x] **112. 路径总和 (Path Sum)** - *专项强化：自顶向下的状态传递。*
 - [x] **110. 平衡二叉树 (Balanced Binary Tree)** - *专项强化：自底向上的数据汇报。*
 - [x] **102. 二叉树的层序遍历 (Binary Tree Level Order Traversal)** - *结合队列 (Queue) 使用*
-- [ ] **236. 二叉树的最近公共祖先 (Lowest Common Ancestor of a Binary Tree)**
+- [x] **236. 二叉树的最近公共祖先 (Lowest Common Ancestor of a Binary Tree)**
 
 ### 排序与动态规划
 
