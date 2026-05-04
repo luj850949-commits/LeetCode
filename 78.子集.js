@@ -10,19 +10,21 @@
  * @return {number[][]}
  */
 var subsets = function(nums) {
-  let now = []
   let arr = []
+  let now = []
 
-  for(let i = 0; i < (1 << nums.length); i++) {
-    for(let t = 0; t < nums.length; t++) {
-      if(i & (1 << t)) {
-        now.push(nums[t])
-      }
+  var sub = function(nowNum) {
+    if(nowNum === nums.length) {
+      arr.push(now.slice())
+      return
     }
-    arr.push(now)
-    now = []
+    now.push(nums[nowNum])
+    sub(nowNum + 1)
+    now.pop(nums.length - 1)
+    sub(nowNum + 1)
   }
 
+  sub(0)
   return arr
 };
 // @lc code=end

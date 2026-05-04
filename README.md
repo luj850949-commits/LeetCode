@@ -34,7 +34,7 @@
 - [x] **102. 二叉树的层序遍历 (Binary Tree Level Order Traversal)** - *结合队列 (Queue) 使用*
 - [x] **236. 二叉树的最近公共祖先 (Lowest Common Ancestor of a Binary Tree)**
 #### 递归进阶一：回溯算法 (决策树)
-- [ ] **78. 子集 (Subsets)** - *理解“选或不选”的递归分支。*
+- [x] **78. 子集 (Subsets)** - *理解“选或不选”的递归分支。*
 - [ ] **46. 全排列 (Permutations)** - *理解递归如何处理状态交换与“回溯”撤销。*
 - [ ] **39. 组合总和 (Combination Sum)** - *理解递归中的剪枝策略。*
 #### 递归进阶二：树结构构造 (自顶向下)
