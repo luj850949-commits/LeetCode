@@ -20,11 +20,11 @@ var subsets = function(nums) {
     }
     now.push(nums[nowNum])
     sub(nowNum + 1)
-    now.pop(nums.length - 1)
+    now.pop(now.length - 1)
     sub(nowNum + 1)
   }
-
   sub(0)
+
   return arr
 };
 // @lc code=end
