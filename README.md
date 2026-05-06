@@ -36,7 +36,7 @@
 #### 递归进阶一：回溯算法 (决策树)
 - [x] **78. 子集 (Subsets)** - *理解“选或不选”的递归分支。*
 - [x] **46. 全排列 (Permutations)** - *理解递归如何处理状态交换与“回溯”撤销。*
-- [ ] **39. 组合总和 (Combination Sum)** - *理解递归中的剪枝策略。*
+- [x] **39. 组合总和 (Combination Sum)** - *理解递归中的剪枝策略。*
 #### 递归进阶二：树结构构造 (自顶向下)
 - [ ] **105. 从前序与中序遍历序列构造二叉树 (Construct Binary Tree from Preorder and Inorder Traversal)** - *分治思想，理解递归划分区间。*
 - [ ] **108. 将有序数组转换为二叉搜索树 (Convert Sorted Array to BST)** - *二分思想与递归的结合。*
