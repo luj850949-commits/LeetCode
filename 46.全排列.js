@@ -11,17 +11,16 @@
  */
 var permute = function(nums) {
   let arr = []
-  let n = nums.length
 
   var per = function(nowNum) {
-    if(nowNum === n) {
+    if(nowNum === nums.length) {
       arr.push(nums.slice())
       return
     }
-    for(let i = nowNum; i < n; i++) {
-      [nums[i], nums[nowNum]] = [nums[nowNum], nums[i]];
-      per(nowNum + 1); 
-      [nums[i], nums[nowNum]] = [nums[nowNum], nums[i]];
+    for(let i = nowNum; i < nums.length; i++) {
+      [nums[i], nums[nowNum]] = [nums[nowNum], nums[i]]
+      per(nowNum + 1);
+      [nums[i], nums[nowNum]] = [nums[nowNum], nums[i]]
     }
   }
 
