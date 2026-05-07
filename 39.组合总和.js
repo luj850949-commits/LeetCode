@@ -11,23 +11,22 @@
  * @return {number[][]}
  */
 var combinationSum = function(candidates, target) {
-  let arr = []
   candidates.sort((a, b) => a - b)
+  let arr = []
 
   var com = function(nowNum, nowArr, nowTar) {
     if(nowTar === target) {
       arr.push(nowArr.slice())
       return
     }
-    if(nowNum === candidates.length || nowTar > target) {
+    if(nowTar > target || nowNum === candidates.length) {
       return
     }
-
     // 不选择当前元素
     com(nowNum + 1, nowArr, nowTar)
     // 选择当前元素
     nowArr.push(candidates[nowNum])
-    com(nowNum, nowArr, nowTar + candidates[nowNum])
+    com(nowNum, nowArr, nowTar += candidates[nowNum])
     // 回溯
     nowArr.pop()
   }
