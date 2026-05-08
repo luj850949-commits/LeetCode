@@ -20,6 +20,7 @@ var subsetsWithDup = function(nums) {
       if(i > nowNum && nums[i] === nums[i - 1]) continue
       nowArr.push(nums[i])
       sub(i + 1, nowArr)
+      // 回溯
       nowArr.pop()
     }
   }
